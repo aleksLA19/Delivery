@@ -1,0 +1,57 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    background: #FFFFFFEB;
+    border-bottom: 1px solid #F97316;
+    padding: 0 48px;
+    &__logo {
+        display: flex;
+        gap: 13px;
+    }
+    &__icon {
+        margin-top: 17px;
+        width: 24px;
+        height: 28px;
+    }
+    &__text-logo {
+        margin-top: 8px;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 28px;
+        line-height: 44.8px;
+        letter-spacing: 3px;
+    }
+    &__menu {
+        margin-top: 21px;
+        ul {
+            list-style-type: none;
+            display: flex;
+            gap: 33px;
+        }
+        &-text {
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 20.8px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: #8A8FA8;
+            text-decoration: none;
+        }
+    }
+}
+
+.btn-header {
+    margin-top: 11px;
+    width: 221px;
+    height: 41px;
+    background: #F97316;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20.8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 4px;
+}

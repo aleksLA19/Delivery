@@ -35,31 +35,26 @@ html {
     scroll-behavior: smooth;
 }
 
-// body {
-//     background-color: $Light;
-// }
-
 .container {
     width: 100%;
-    padding: 0 10px;
+    padding: 0 48px;
 }
 
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 720px;
-        padding: 0;
-        margin: 0 auto;
-    }
-}
+// @media screen and (min-width: 768px) {
+//     .container {
+//         padding: 0;
+//         margin: 0 auto;
+//     }
+// }
 
-@media screen and (min-width: 1200px) {
-    .container {
-        max-width: 1140px;
-    }
-}
+// @media screen and (min-width: 1200px) {
+//     .container {
+//         
+//     }
+// }
 
-@media screen and (min-width: 1920px) {
-    .container {
-        max-width: 1440px;
-    }
-}
+// @media screen and (min-width: 1920px) {
+//     .container {
+//         
+//     }
+// }
