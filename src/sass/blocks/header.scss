@@ -37,6 +37,9 @@
             text-transform: uppercase;
             color: #8A8FA8;
             text-decoration: none;
+            transition: color 0.2s ease;
+        } &-text:hover {
+            color: #000000;
         }
     }
 }
@@ -54,4 +57,5 @@
     color: #FFFFFF;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 }

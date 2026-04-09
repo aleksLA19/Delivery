@@ -1,0 +1,113 @@
+.statistics {
+    height: 1016px;
+    background: linear-gradient(180deg, #FFF6F0 0%, #FFF4EF 50%, #FFF6F0 100%);
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 241px 0;
+    }
+    &__title {
+        &-h1 {
+            margin-top: 6px;
+        }
+        &-word {
+            font-weight: 400;
+            font-size: 100px;
+            line-height: 95px;
+            letter-spacing: 2px;
+            color: #1F2937;
+        }
+        &-set {
+            display: flex;
+            gap: 31px;
+        }
+        &-orange {
+            font-weight: 400;
+            font-size: 100px;
+            line-height: 95px;
+            letter-spacing: 2px;
+            color: #F97316;
+        }
+    }
+    &__text-orange {
+        padding: 5px 13px 6px 15px;
+        color: #F97316;
+        width: 303px;
+        border: 1px solid #F97316;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 17.6px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+    &__text {
+        margin-top: 59px;
+        width: 460px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 27.2px;
+        letter-spacing: 0%;
+        color: #6B7280;
+    }
+    &__button {
+        margin-top: 36px;
+        display: flex;
+        gap: 16px;
+    }
+    &-info {
+        margin-top: 113px;
+        text-align: right;
+    }
+    &-number {
+        &-separation {
+            margin-top: 24px;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: 1px;
+            color: #1F2937;
+            span {
+                color: #F97316;
+            }
+        }
+        &-text {
+            margin-top: 7px;
+            font-weight: 400;
+            font-size: 11px;
+            line-height: 17.6px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #1F2937;
+        }
+    }
+}
+
+.btn-statistics {
+    &-order {
+        width: 209px;
+        height: 51px;
+        border-radius: 4px;
+        border: none;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 100%;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        background: #F97316;
+        cursor: pointer;
+    }
+    &-service {
+        width: 187px;
+        height: 51px;
+        border-radius: 4px;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20.8px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #1F2937;
+        border: 1px solid #2E3240;
+        cursor: pointer;
+    }
+}
