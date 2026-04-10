@@ -1,0 +1,60 @@
+.footer {
+    height: 138px;
+    background: #FFFFFF;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__name {
+        margin-top: 43px;
+    }
+    &__logo {
+        display: flex;
+        gap: 11px;
+        font-weight: 700;
+        font-size: 22.98px;
+        line-height: 36.77px;
+        letter-spacing: 2.46px;
+        color: #1F2937;
+        &-img {
+            width: 20px;
+            height: 23px;
+            margin-top: 7px;
+        }
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19.2px;
+        letter-spacing: 0%;
+        color: #1F2937;
+    }
+    &__menu {
+        margin-top: 59px;
+        ul {
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            gap: 23px;
+        }
+        &-text {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 19.2px;
+            letter-spacing: 0%;
+            color: #1F2937;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        } &-text:hover {
+            color: #000000;
+        }
+    }
+    &-date {
+        margin-top: 59px;
+        color: #1F2937;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19.2px;
+        letter-spacing: 0%;
+    }
+}
