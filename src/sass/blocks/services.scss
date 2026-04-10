@@ -1,0 +1,57 @@
+.services {
+    padding-top: 80px;
+    background-color: #F5F6FA;
+    height: 611px;
+    &-question {
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 17.6px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #F97316;
+    }
+    &-h2 {
+        margin-top: 12px;
+        display: flex;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 89.6px;
+        letter-spacing: 2px;
+        color: #1F2937;
+        gap: 11px;
+        span {
+            color: #F97316;
+        }
+    }
+    &__wrapper {
+        margin-top: 49px;
+        display: flex;
+        gap: 1px;
+        &-card {
+            padding: 50px 33px 0;
+            width: 300px;
+            height: 281px;
+            background-color: #FFFFFF;
+            border-width: 0px 1px 1px 0px;
+            border-style: solid;
+            border-color: #E8E8E8;
+
+        }
+        &-title {
+            margin-top: 26px;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+            color: #1F2937;
+        }
+        &-text {
+            margin-top: 10px;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20.8px;
+            letter-spacing: 0%;
+            color: #1F2937;
+        }
+    }
+}
