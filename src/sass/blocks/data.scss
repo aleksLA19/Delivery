@@ -1,5 +1,9 @@
 .data {
     margin: 80px 0;
+    .just-validate-error-field {
+        border: none;
+        outline: 1px solid red;
+    }
     &__card {
         display: flex;
         justify-content: center;
