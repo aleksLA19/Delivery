@@ -1,0 +1,39 @@
+.region {
+    margin-top: 37px;
+    background: #FEFEFF;
+    &__title {
+        padding-left: 505px;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 17.6px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #1F2937;
+        
+    }
+    &__wrapper {
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+    }
+    &-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        width: 804px;
+        gap: 8px;
+    }
+    &-btn {
+        width: 195px;
+        height: 46px;
+        border: 1px solid #DDDDDD;
+        background: #F5F6FA;
+        border-radius: 3px;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0.5px;
+        text-align: center;
+        color: #1F2937;
+        cursor: pointer;
+    }
+}

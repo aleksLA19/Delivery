@@ -1,0 +1,35 @@
+.page-order {
+    margin-top: 59px;
+    text-align: center;
+    background: #FEFEFF;
+    &__title {
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 17.6px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #F97316;
+    }
+    &-h1 {
+        margin-top: 12px;
+        display: flex;
+        justify-content: center;
+        gap: 21px;
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 115.2px;
+        letter-spacing: 2px;
+        color: #1F2937;
+        span {
+            color: #F97316;
+        }
+    }
+    &__text {
+        margin-top: 13px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        letter-spacing: 0%;
+        color: #1F2937;
+    }
+}

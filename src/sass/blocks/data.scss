@@ -1,0 +1,160 @@
+.data {
+    margin: 80px 0;
+    &__card {
+        display: flex;
+        justify-content: center;
+    }
+    &__fieldset {
+        width: 664px;
+        border: 1px solid #DDDDDD;
+        background: #F5F6FA;
+        padding: 41px;
+        &-details {
+            margin-top: 32px;
+            padding: 24px 25px 36px;
+            width: 582px;
+            height: 295px;
+            border-radius: 3px;
+            border: 1px solid #CECECE;
+            background: #FEFEFF;
+        }
+    }
+    &__title {
+        height: 48px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 35.2px;
+        letter-spacing: 2px;
+        color: #1F2937;
+        border-bottom: 1px solid #CECECE;
+    }
+    #span {
+        margin-top: 36px;
+    }
+    &-btn {
+        display: flex;
+        margin-top: 24px;
+        &-physical {
+            width: 291px;
+            height: 42px;
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+            border: 1px solid #F97316;
+            background: #F97316;
+            font-weight: 700;
+            font-size: 13px;
+            line-height: 100%;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+            cursor: pointer;
+        }   
+        &-legal {
+            width: 291px;
+            height: 42px;
+            border-top-right-radius: 4px;
+            border-bottom-right-radius: 4px;
+            background: #6B728080;
+            border: 1px solid #6B728080;
+            cursor: pointer;
+        }
+        &-bottom {
+            margin-top: 28px;
+            width: 582px;
+            height: 48px;
+            border-radius: 4px;
+            border: none;
+            background: #F97316;
+            font-family: Arial;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 100%;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+    }
+    &__input-block {
+        display: flex;
+        gap: 20px;
+    }
+    &__label {
+        margin-top: 20px;
+        display: block;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 17.6px;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+        color: #8A8FA8;
+    }
+    &__input {
+        margin-top: 8px;
+        width: 281px;
+        height: 44px;
+        border-radius: 3px;
+        border: 1px solid #CECECE;
+        background: #FEFEFF;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        color: #B0B4BD;
+        padding: 13px 17px;
+    }
+    &__textarea {
+        margin-top: 8px;
+        padding: 13px 17px;
+        width: 582px;
+        height: 90px;
+        border-radius: 3px;
+        background: #FEFEFF;
+        border: 1px solid #CECECE;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #B0B4BD;
+    }
+    &__details {
+        &-title {
+            margin-bottom: 17px;
+            font-weight: 700;
+            font-size: 11px;
+            line-height: 17.6px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #8A8FA8;
+        }
+        &-block {
+            height: 42px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #CECECE;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 20.8px;
+            letter-spacing: 0%;
+            color: #B0B4BD;
+            span {
+                color: #F97316;
+            } 
+        }
+        &-text {
+            margin-top: 9px;
+        }
+        &-result {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 24px;
+            letter-spacing: 0%;
+            color: #B0B4BD;
+            span {
+                color: #F97316;
+            }
+        }
+    }
+}

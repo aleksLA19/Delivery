@@ -1,0 +1,53 @@
+.footer-order {
+    height: 135px;
+    background: #1F2937;
+    border-top: 1px solid #2E3240;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__name {
+        margin-top: 42px;
+    }
+    &__logo {
+        display: flex;
+        gap: 13px;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 44.8px;
+        letter-spacing: 3px;
+        color: #FFFFFF;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19.2px;
+        letter-spacing: 0%;
+        color: #FFFFFF;
+    }
+    &__menu {
+        margin-top: 59px;
+        ul {
+            padding: 0;
+            list-style-type: none;
+            display: flex;
+            gap: 23px;
+        }
+        &-text {
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 19.2px;
+            letter-spacing: 0%;
+            text-decoration: none;
+            color: #8A8FA8;
+        }
+    }
+    &-date {
+        margin-top: 59px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 19.2px;
+        letter-spacing: 0%;
+        color: #8A8FA8;
+    }
+}

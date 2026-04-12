@@ -3,7 +3,12 @@
 @use "/src/sass/base/basic.scss";
 
 @use "/src/sass/blocks/header.scss";
+@use "/src/sass/blocks/footer.scss";
+@use "/src/sass/blocks/footer-order.scss";
+
 @use "/src/sass/blocks/statistics.scss";
 @use "/src/sass/blocks/services.scss";
 @use "/src/sass/blocks/ready.scss";
-@use "/src/sass/blocks/footer.scss";
+@use "/src/sass/blocks/page-order.scss";
+@use "/src/sass/blocks/region.scss";
+@use "/src/sass/blocks/data.scss";

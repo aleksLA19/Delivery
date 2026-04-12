@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page-order</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet" />
+</head>
+    <body>
+        <header class="header">
+            <div class="header__logo">
+                <img src="/src/img/logo/jira_core.svg" alt="logo" class="header__icon">
+                <p class="header__text-logo">Деливери</p>
+            </div>
+            <nav class="header__menu">
+                <ul>
+                    <li><a href="#" class="header__menu-text">Главная</a></li>
+                    <li><a href="#" class="header__menu-text">Оформить заказ</a></li>
+                    <li><a href="#" class="header__menu-text">Контакты</a></li>
+                </ul>
+            </nav>
+            <button class="header-btn">Заказать доставку</button>
+        </header>
+
+        <section class="page-order">
+            <div class="container">
+                <p class="page-order__title">Оформление заказа</p>
+                <div class="page-order-h1">
+                    <div>ОФОРМИТЬ</div>
+                    <div><span>ЗАКАЗ</span></div>
+                </div>
+                <p class="page-order__text">Выберите регион отправки, заполните данные и получите <br> подтверждение.</p>
+            </div>
+        </section>
+            
+        <section class="region">
+            <div class="container">
+                <p class="region__title">Выберите регион отправителя</p>
+                <div class="region__wrapper">
+                    <div class="region-grid">
+                        <button class="region-btn">Москва</button>
+                        <button class="region-btn">Санкт-Петербург</button>
+                        <button class="region-btn">Новосибирск</button>
+                        <button class="region-btn">Екатеринбург</button>
+                        <button class="region-btn">Казань</button>
+                        <button class="region-btn">Нижний Новгород</button>
+                        <button class="region-btn">Челябинск</button>
+                        <button class="region-btn">Краснодар</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="data">
+            <div class="container">
+                <div class="data__card">
+                    <fieldset class="data__fieldset">
+                    <div class="data__title">Данные отправителя</div>
+                    <form class="dara__form" action="#">
+                        <div class="data-btn">
+                            <button class="data-btn-physical">Физическое лицо</button>
+                            <button class="data-btn-legal">Юридическое лицо</button>
+                        </div>
+                            <div class="data__input-block">
+                                <div>
+                                    <label class="data__label" for="Фамилия">Фамилия</label>
+                                    <input required class="data__input" type="text" id="Surname" name="Surname" placeholder="Иванов">
+                                </div>
+                                <div>
+                                    <label class="data__label" for="Имя">Имя</label>
+                                    <input required class="data__input" type="text" id="Name" name="Name" placeholder="Иван">
+                                </div>
+                            </div>
+                            <div class="data__input-block">
+                                <div>
+                                    <label class="data__label" for="Отчество">Отчество</label>
+                                    <input required class="data__input" type="text" id="Patronymic" name="Patronymic" placeholder="Иванович">
+                                </div>
+                                <div>
+                                    <label class="data__label" for="Телефон">Телефон</label>
+                                    <input required class="data__input" type="number" id="numbers" name="Numbers" placeholder="+7 (___) ___-__-__">
+                                </div>
+                            </div>
+                            <div class="data__input-block">
+                                <div>
+                                    <label class="data__label" for="Email">Email</label>
+                                    <input required class="data__input" type="Email" id="Email" name="Email" placeholder="ivan@mail.ru">
+                                </div>
+                                <div>
+                                    <label class="data__label" for="Document">Паспорт (серия и номер)</label>
+                                    <input required class="data__input" type="number" id="Numbers" name="Numbers" placeholder="4500 123456">
+                                </div>
+                            </div>
+                            <div class="data__title" id="span">Детали доставки</div>
+                            <div class="data__input-block">
+                                <div>
+                                    <label class="data__label" for="Адрес отправки">Адрес отправки</label>
+                                    <input required class="data__input" type="address" id="Address" name="Address" placeholder="Ваш адрес">
+                                </div>
+                                <div>
+                                    <label class="data__label" for="Город получателя">Город получателя</label>
+                                    <input required class="data__input" type="text" id="Region" name="Region" placeholder="— выберите регион выше —">
+                                </div>
+                            </div>
+                            <div class="data__input-block">
+                                <div>
+                                    <label class="data__label" for="Адрес получателя">Адрес получателя</label>
+                                    <input required class="data__input" type="text" id="Delivery" name="Delivery" placeholder="Адрес доставки">
+                                </div>
+                                <div>
+                                    <label class="data__label" for="Тип отправления">Тип отправления</label>
+                                    <input required class="data__input" type="text" id="Type" name="Type" placeholder="Письмо / документы">
+                                </div>
+                            </div>
+                            <div class="data__input-block">
+                                <div>
+                                    <label class="data__label" for="Date">Дата отправки</label>
+                                    <input required class="data__input" type="number" id="Date" name="Date" placeholder="2026-04-07">
+                                </div>
+                                <div>
+                                    <label class="data__label" for="Time">Время приезда курьера</label>
+                                    <input required class="data__input" type="number" id="Time" name="Time" placeholder="09:00 – 12:00">
+                                </div>
+                            </div>
+                        <label class="data__label" for="#">Комментарий к заказу</label>
+                        <textarea class="data__textarea" name="Comment" id="Comment" placeholder="Хрупкое, не переворачивать, позвонить за час..."></textarea>
+                        <fieldset class="data__fieldset-details">
+                            <p class="data__details-title">Детали заказа</p>
+                            <div class="data__details-block">
+                                <p class="data__details-text">Тип отправления</p>
+                                <p class="data__details-text"><span>Письмо / документы</span></p>
+                            </div>
+                            <div class="data__details-block">
+                                <p class="data__details-text">Регион отправки</p>
+                                <p class="data__details-text"><span>Не выбран</span></p>
+                            </div>
+                            <div class="data__details-block">
+                                <p class="data__details-text">Город получателя</p>
+                                <p class="data__details-text"><span>—</span></p>
+                            </div>
+                            <div class="data__details-block">
+                                <p class="data__details-text">Дата и время</p>
+                                <p class="data__details-text"><span>2026-04-07, 09:00 – 12:00</span></p>
+                            </div>
+                            <div class="data__details-result">
+                                <p class="data__details-text">Стоимость доставки</p>
+                                <p class="data__details-text"><span>от 250 ₽</span></p>
+                            </div>
+                        </fieldset>
+                    </form>
+                    <button class="data-btn-bottom">Оформить заказ →</button>
+                    </fieldset>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer-order">
+            <div class="container">
+                <div class="footer-order__wrapper">
+                    <div class="footer-order__name">
+                        <div class="footer-order__logo">
+                            <img src="/src/img/logo/jira_core.svg" alt="logo" class="footer-order__logo-img">
+                            <p>ДЕЛИВЕРИ</p>
+                        </div>
+                        <p class="footer-order__text">Доставка по всей России</p>
+                    </div>
+                    <nav class="footer-order__menu">
+                        <ul>
+                            <li><a href="#" class="footer-order__menu-text">Главная</a></li>
+                            <li><a href="#" class="footer-order__menu-text">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <p class="footer-order-date">© 2025 ООО «Деливери»</p>
+                </div>
+            </div>
+        </footer>
+        <script type="module" src="/src/js/script.js"></script>
+    </body>
+</html>
